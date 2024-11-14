@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tipos de Celulares</title>
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(126, 121, 125);
+    color: #333;
+}
+
+header {
+    background-image: url(img_marcas/encabezado.jpg);
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    text-align: center;
+    height: 80px;
+}
+header img {
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+    left: 220px;
+    border: 5px solid rgb(10, 185, 10);
+}
+header:hover{
+    color: rgb(71, 226, 9);
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.brand-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.brand {
+    background-color: rgb(255, 255, 255);
+    border: 4px solid rgb(22, 4, 128);
+    margin: 10px;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.brand:hover {
+    background-color: rgb(136, 145, 231);
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    color: rgb(247, 247, 247);
+}
+.img{
+    border-color: solid black  1px;
+}
+.brand img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+.brand1 {
+    background-color: rgb(97, 92, 92);
+    border: 4px solid rgb(22, 4, 128);
+    margin: 10px;
+    padding: 0px;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 18px;
+}
+
+
+.brand h2 {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    background-color: #3f4144;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.back-button {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #2980b9;
+}
+
+</style>
+<body>
+    <header>
+        <h1>Tipos de Celulares</h1>
+        <img src="img_marcas/fondo5.jpg" width="70px" height="70px">
+    </header>
+
+    <section class="brand-list">
+        <div class="brand1">
+            <video controls autoplay muted width="180px" height="160px">
+                <source src="img_marcas/video1.mp4">
+            </video>
+        </div>
+        <div class="brand">
+            <a href="marca_apple.html">
+                <img src="img_marcas/apple.jpg.png" alt="Apple" width="80px" height="80px">
+                <h2>Apple</h2>
+            </a>
+        </div>
+        <div class="brand">
+            <a href="marca_samsung.html">
+                <img src="img_marcas/samsung.jpg.png" alt="Samsung" width="80px" height="80px">
+                <h2>Samsung</h2>
+            </a>
+        </div>
+        <div class="brand">
+            <a href="marca_huawei.html">
+                <img src="img_marcas/huawei.png" alt="Huawei" width="80px" height="80px">
+                <h2>Huawei</h2>
+            </a>
+        </div>
+        <div class="brand">
+            <a href="marca_xiaomi.html">
+                <img src="img_marcas/xiaomi.png" alt="Xiaomi" width="80px" height="80px">
+                <h2>Xiaomi</h2>
+            </a>
+        </div>
+        <div class="brand">
+            <a href="marca_sony.html">
+                <img src="img_marcas/sony.png" alt="Sony" width="80px" height="80px">
+                <h2>Sony</h2>
+            </a>
+        </div>
+        <div class="brand">
+            <a href="marca_nokia.html">
+                <img src="img_marcas/nokia.png" alt="Nokia" width="80px" height="80px">
+                <h2>Nokia</h2>
+            </a>
+        </div>
+        <div class="brand">
+            <a href="marca_motorola.html">
+                <img src="img_marcas/motorola.png" alt="Motorola" width="80px" height="80px">
+                <h2>Motorola</h2>
+            </a>
+        </div>
+        <div class="brand">
+            <a href="videos.html">
+                <img src="img_marcas/fondo.jpg" alt="Motorola" width="100px" height="100px">
+                <h2>videos</h2>
+            </a>
+        </div>
+        
+    </section>
+  
+    <footer>
+        <p>@copy; 2024 Celulares - Derechos Reservados</p>
+    </footer>
+</body>
+</html>
